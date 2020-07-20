@@ -5,6 +5,7 @@
 //  Created by Ethan.Li on 2020/7/17.
 //  Copyright © 2020 cico. All rights reserved.
 //
+// swiftlint:disable line_length
 
 import UIKit
 import SwiftUI

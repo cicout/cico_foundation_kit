@@ -20,7 +20,7 @@ class ContentViewModel: ObservableObject {
         self.repeatTimer = GCDTimer.init(globalTimerInterval: 1, repeats: true) {
             print("Repeat time = \(Date.init())")
         }
-        
+
         self.noRepeatTimer = GCDTimer.init(globalTimerInterval: 1, repeats: false) {
             print("No repeat time = \(Date.init())")
         }

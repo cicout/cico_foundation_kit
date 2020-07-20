@@ -49,7 +49,8 @@ public class GCDAide {
         }
     }
 
-    public static func syncRunForAsyncClosure<T>(type: T.Type = T.self, _ asyncClosure: @escaping (@escaping (T) -> Void) -> Void) -> T {
+    public static func syncRunForAsyncClosure<T>(type: T.Type = T.self,
+                                                 _ asyncClosure: @escaping (@escaping (T) -> Void) -> Void) -> T {
         var result: T?
         let semaphore = DispatchSemaphore.init(value: 0)
         self.asyncOnGlobal {
