@@ -10,7 +10,7 @@
 		E437A82A24C1998A00C53176 /* UIImage+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A81F24C1998A00C53176 /* UIImage+Bundle.swift */; };
 		E437A82B24C1998A00C53176 /* UIApplication+topViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A82124C1998A00C53176 /* UIApplication+topViewController.swift */; };
 		E437A82C24C1998A00C53176 /* Bundle+bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A82324C1998A00C53176 /* Bundle+bundle.swift */; };
-		E437A82D24C1998A00C53176 /* INSHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A82524C1998A00C53176 /* INSHolderView.swift */; };
+		E437A82D24C1998A00C53176 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A82524C1998A00C53176 /* ContainerView.swift */; };
 		E437A82E24C1998A00C53176 /* GCDAide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A82724C1998A00C53176 /* GCDAide.swift */; };
 		E437A82F24C1998A00C53176 /* DebugAide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A82924C1998A00C53176 /* DebugAide.swift */; };
 		E437A83524C19B4700C53176 /* GCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A83424C19B4700C53176 /* GCDTimer.swift */; };
@@ -49,7 +49,7 @@
 		E437A81F24C1998A00C53176 /* UIImage+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Bundle.swift"; sourceTree = "<group>"; };
 		E437A82124C1998A00C53176 /* UIApplication+topViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+topViewController.swift"; sourceTree = "<group>"; };
 		E437A82324C1998A00C53176 /* Bundle+bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+bundle.swift"; sourceTree = "<group>"; };
-		E437A82524C1998A00C53176 /* INSHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INSHolderView.swift; sourceTree = "<group>"; };
+		E437A82524C1998A00C53176 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		E437A82724C1998A00C53176 /* GCDAide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDAide.swift; sourceTree = "<group>"; };
 		E437A82924C1998A00C53176 /* DebugAide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugAide.swift; sourceTree = "<group>"; };
 		E437A83424C19B4700C53176 /* GCDTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDTimer.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		E437A82424C1998A00C53176 /* holder_view */ = {
 			isa = PBXGroup;
 			children = (
-				E437A82524C1998A00C53176 /* INSHolderView.swift */,
+				E437A82524C1998A00C53176 /* ContainerView.swift */,
 			);
 			path = holder_view;
 			sourceTree = "<group>";
@@ -435,7 +435,7 @@
 				E437A82F24C1998A00C53176 /* DebugAide.swift in Sources */,
 				E437A82E24C1998A00C53176 /* GCDAide.swift in Sources */,
 				E437A82A24C1998A00C53176 /* UIImage+Bundle.swift in Sources */,
-				E437A82D24C1998A00C53176 /* INSHolderView.swift in Sources */,
+				E437A82D24C1998A00C53176 /* ContainerView.swift in Sources */,
 				E437A82C24C1998A00C53176 /* Bundle+bundle.swift in Sources */,
 				E437A82B24C1998A00C53176 /* UIApplication+topViewController.swift in Sources */,
 				E437A83524C19B4700C53176 /* GCDTimer.swift in Sources */,

@@ -11,7 +11,7 @@ import CICOFoundationKit
 
 class GCDTimerTests: XCTestCase {
     var timer: GCDTimer?
-    
+
     func test_repeat_timer() {
         self.timer = GCDTimer.init(globalTimerInterval: 1, repeats: true) {
             print("time = \(Date.init())")

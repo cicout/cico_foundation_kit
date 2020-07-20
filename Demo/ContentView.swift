@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var viewModel = ContentViewModel.init()
-    
+
     var body: some View {
         Button.init(action: {
             self.viewModel.test()

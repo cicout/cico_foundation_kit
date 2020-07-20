@@ -11,13 +11,18 @@ import Combine
 import CICOFoundationKit
 
 class ContentViewModel: ObservableObject {
-    var timer: GCDTimer?
-    
+    var repeatTimer: GCDTimer?
+    var noRepeatTimer: GCDTimer?
+
     func test() {
         print("start = \(Date.init())")
+
+        self.repeatTimer = GCDTimer.init(globalTimerInterval: 1, repeats: true) {
+            print("Repeat time = \(Date.init())")
+        }
         
-        self.timer = GCDTimer.init(globalTimerInterval: 1, repeats: true) {
-            print("time = \(Date.init())")
+        self.noRepeatTimer = GCDTimer.init(globalTimerInterval: 1, repeats: false) {
+            print("No repeat time = \(Date.init())")
         }
     }
 }

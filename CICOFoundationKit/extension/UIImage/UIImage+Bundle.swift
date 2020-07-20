@@ -13,7 +13,7 @@ public extension UIImage {
     convenience init?(named: String, bundleForObject object: AnyObject) {
         self.init(named: named, bundleForClass: type(of: object))
     }
-    
+
     convenience init?(named: String, bundleForClass aClass: Swift.AnyClass) {
         let bundle = Bundle.init(for: aClass)
         self.init(named: named, in: bundle, compatibleWith: nil)
