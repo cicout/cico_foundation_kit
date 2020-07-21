@@ -25,6 +25,17 @@
 		E437A85C24C1ABFC00C53176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E437A85A24C1ABFC00C53176 /* LaunchScreen.storyboard */; };
 		E437A86224C1AC7100C53176 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A86124C1AC7100C53176 /* ContentViewModel.swift */; };
 		E437A86424C1B06E00C53176 /* CICOFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47E297124C194D900F0B7D7 /* CICOFoundationKit.framework */; };
+		E44571B724C6EC2A00309AFD /* FileManagerAide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571AE24C6EC2A00309AFD /* FileManagerAide.swift */; };
+		E44571B824C6EC2A00309AFD /* PathAide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571AF24C6EC2A00309AFD /* PathAide.swift */; };
+		E44571B924C6EC2A00309AFD /* SecurityAide+SHA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571B124C6EC2A00309AFD /* SecurityAide+SHA.swift */; };
+		E44571BA24C6EC2A00309AFD /* Data+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571B224C6EC2A00309AFD /* Data+Bytes.swift */; };
+		E44571BB24C6EC2A00309AFD /* SecurityAide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571B324C6EC2A00309AFD /* SecurityAide.swift */; };
+		E44571BC24C6EC2A00309AFD /* SecurityAide+AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571B424C6EC2A00309AFD /* SecurityAide+AES.swift */; };
+		E44571BD24C6EC2A00309AFD /* SecurityAide+HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571B524C6EC2A00309AFD /* SecurityAide+HMAC.swift */; };
+		E44571BE24C6EC2A00309AFD /* SecurityAide+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571B624C6EC2A00309AFD /* SecurityAide+MD5.swift */; };
+		E44571C124C6EC9D00309AFD /* UIColor+rgba.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571C024C6EC9D00309AFD /* UIColor+rgba.swift */; };
+		E44571C524C6F01100309AFD /* DateFormatter+format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571C424C6F01100309AFD /* DateFormatter+format.swift */; };
+		E44571C724C6F0C200309AFD /* Date+format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571C624C6F0C200309AFD /* Date+format.swift */; };
 		E47E298024C1964400F0B7D7 /* CICOFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E47E297E24C1964400F0B7D7 /* CICOFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -66,6 +77,17 @@
 		E437A85B24C1ABFC00C53176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E437A85D24C1ABFC00C53176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E437A86124C1AC7100C53176 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E44571AE24C6EC2A00309AFD /* FileManagerAide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerAide.swift; sourceTree = "<group>"; };
+		E44571AF24C6EC2A00309AFD /* PathAide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathAide.swift; sourceTree = "<group>"; };
+		E44571B124C6EC2A00309AFD /* SecurityAide+SHA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecurityAide+SHA.swift"; sourceTree = "<group>"; };
+		E44571B224C6EC2A00309AFD /* Data+Bytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Bytes.swift"; sourceTree = "<group>"; };
+		E44571B324C6EC2A00309AFD /* SecurityAide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityAide.swift; sourceTree = "<group>"; };
+		E44571B424C6EC2A00309AFD /* SecurityAide+AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecurityAide+AES.swift"; sourceTree = "<group>"; };
+		E44571B524C6EC2A00309AFD /* SecurityAide+HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecurityAide+HMAC.swift"; sourceTree = "<group>"; };
+		E44571B624C6EC2A00309AFD /* SecurityAide+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecurityAide+MD5.swift"; sourceTree = "<group>"; };
+		E44571C024C6EC9D00309AFD /* UIColor+rgba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+rgba.swift"; sourceTree = "<group>"; };
+		E44571C424C6F01100309AFD /* DateFormatter+format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+format.swift"; sourceTree = "<group>"; };
+		E44571C624C6F0C200309AFD /* Date+format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+format.swift"; sourceTree = "<group>"; };
 		E47E297124C194D900F0B7D7 /* CICOFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CICOFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47E297D24C1964400F0B7D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47E297E24C1964400F0B7D7 /* CICOFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICOFoundationKit.h; sourceTree = "<group>"; };
@@ -101,9 +123,11 @@
 		E437A81D24C1998A00C53176 /* extension */ = {
 			isa = PBXGroup;
 			children = (
-				E437A81E24C1998A00C53176 /* UIImage */,
-				E437A82024C1998A00C53176 /* UIApplication */,
+				E44571C324C6EFEE00309AFD /* Date */,
 				E437A82224C1998A00C53176 /* Bundle */,
+				E437A82024C1998A00C53176 /* UIApplication */,
+				E44571BF24C6EC7E00309AFD /* UIColor */,
+				E437A81E24C1998A00C53176 /* UIImage */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -132,12 +156,12 @@
 			path = Bundle;
 			sourceTree = "<group>";
 		};
-		E437A82424C1998A00C53176 /* holder_view */ = {
+		E437A82424C1998A00C53176 /* container_view */ = {
 			isa = PBXGroup;
 			children = (
 				E437A82524C1998A00C53176 /* ContainerView.swift */,
 			);
-			path = holder_view;
+			path = container_view;
 			sourceTree = "<group>";
 		};
 		E437A82624C1998A00C53176 /* gcd */ = {
@@ -159,7 +183,7 @@
 		E437A83024C19ACD00C53176 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				E437A82424C1998A00C53176 /* holder_view */,
+				E437A82424C1998A00C53176 /* container_view */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -169,6 +193,8 @@
 			children = (
 				E437A82824C1998A00C53176 /* debug */,
 				E437A82624C1998A00C53176 /* gcd */,
+				E44571AD24C6EC2A00309AFD /* path */,
+				E44571B024C6EC2A00309AFD /* security */,
 			);
 			path = aide;
 			sourceTree = "<group>";
@@ -227,6 +253,45 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44571AD24C6EC2A00309AFD /* path */ = {
+			isa = PBXGroup;
+			children = (
+				E44571AE24C6EC2A00309AFD /* FileManagerAide.swift */,
+				E44571AF24C6EC2A00309AFD /* PathAide.swift */,
+			);
+			path = path;
+			sourceTree = "<group>";
+		};
+		E44571B024C6EC2A00309AFD /* security */ = {
+			isa = PBXGroup;
+			children = (
+				E44571B224C6EC2A00309AFD /* Data+Bytes.swift */,
+				E44571B324C6EC2A00309AFD /* SecurityAide.swift */,
+				E44571B424C6EC2A00309AFD /* SecurityAide+AES.swift */,
+				E44571B524C6EC2A00309AFD /* SecurityAide+HMAC.swift */,
+				E44571B624C6EC2A00309AFD /* SecurityAide+MD5.swift */,
+				E44571B124C6EC2A00309AFD /* SecurityAide+SHA.swift */,
+			);
+			path = security;
+			sourceTree = "<group>";
+		};
+		E44571BF24C6EC7E00309AFD /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				E44571C024C6EC9D00309AFD /* UIColor+rgba.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		E44571C324C6EFEE00309AFD /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				E44571C624C6F0C200309AFD /* Date+format.swift */,
+				E44571C424C6F01100309AFD /* DateFormatter+format.swift */,
+			);
+			path = Date;
 			sourceTree = "<group>";
 		};
 		E47E296724C194D900F0B7D7 = {
@@ -455,12 +520,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E437A82F24C1998A00C53176 /* DebugAide.swift in Sources */,
+				E44571C524C6F01100309AFD /* DateFormatter+format.swift in Sources */,
+				E44571C124C6EC9D00309AFD /* UIColor+rgba.swift in Sources */,
 				E437A82E24C1998A00C53176 /* GCDAide.swift in Sources */,
+				E44571BC24C6EC2A00309AFD /* SecurityAide+AES.swift in Sources */,
+				E44571BA24C6EC2A00309AFD /* Data+Bytes.swift in Sources */,
+				E44571B824C6EC2A00309AFD /* PathAide.swift in Sources */,
+				E44571BB24C6EC2A00309AFD /* SecurityAide.swift in Sources */,
 				E437A82A24C1998A00C53176 /* UIImage+Bundle.swift in Sources */,
+				E44571BD24C6EC2A00309AFD /* SecurityAide+HMAC.swift in Sources */,
 				E437A82D24C1998A00C53176 /* ContainerView.swift in Sources */,
 				E437A82C24C1998A00C53176 /* Bundle+bundle.swift in Sources */,
+				E44571C724C6F0C200309AFD /* Date+format.swift in Sources */,
 				E437A82B24C1998A00C53176 /* UIApplication+topViewController.swift in Sources */,
+				E44571BE24C6EC2A00309AFD /* SecurityAide+MD5.swift in Sources */,
+				E44571B724C6EC2A00309AFD /* FileManagerAide.swift in Sources */,
 				E437A83524C19B4700C53176 /* GCDTimer.swift in Sources */,
+				E44571B924C6EC2A00309AFD /* SecurityAide+SHA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +611,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -555,7 +631,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -691,6 +767,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -715,6 +792,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

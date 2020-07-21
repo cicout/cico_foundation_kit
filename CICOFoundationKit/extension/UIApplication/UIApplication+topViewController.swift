@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 public extension UIApplication {
-    static var currentTopViewController: UIViewController {
+    static var topPresentedViewController: UIViewController {
         guard let rootVC = UIApplication.shared.keyWindow?.rootViewController else {
             assertionFailure("Invalid root vc.")
             return UIViewController.init()
@@ -19,13 +19,28 @@ public extension UIApplication {
         while let presentedVC = topPresentedVC.presentedViewController {
             topPresentedVC = presentedVC
         }
-        var topVC = topPresentedVC
-        if let tabVC = topVC as? UITabBarController, let selectedVC = tabVC.selectedViewController {
-            topVC = selectedVC
+        return topPresentedVC
+    }
+
+    static var currentTopViewController: UIViewController {
+        var topVC = self.topPresentedViewController
+
+        while true {
+            if let tabVC = topVC as? UITabBarController, let selectedVC = tabVC.selectedViewController {
+                topVC = selectedVC
+                continue
+            } else if let navVC = topVC as? UINavigationController, let topNavVC = navVC.topViewController {
+                topVC = topNavVC
+                continue
+            } else {
+                break
+            }
         }
-        if let navVC = topVC as? UINavigationController, let topNavVC = navVC.topViewController {
-            topVC = topNavVC
-        }
+
         return topVC
+    }
+
+    func present(_ viewController: UIViewController, animated: Bool, completion: (() -> Void)?) {
+        Self.topPresentedViewController.present(viewController, animated: animated, completion: completion)
     }
 }
