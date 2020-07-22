@@ -14,9 +14,7 @@
 		E437A82E24C1998A00C53176 /* GCDAide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A82724C1998A00C53176 /* GCDAide.swift */; };
 		E437A82F24C1998A00C53176 /* DebugAide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A82924C1998A00C53176 /* DebugAide.swift */; };
 		E437A83524C19B4700C53176 /* GCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A83424C19B4700C53176 /* GCDTimer.swift */; };
-		E437A83D24C1A13500C53176 /* CICOFoundationKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A83C24C1A13500C53176 /* CICOFoundationKitTests.swift */; };
 		E437A83F24C1A13500C53176 /* CICOFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47E297124C194D900F0B7D7 /* CICOFoundationKit.framework */; };
-		E437A84824C1A1D300C53176 /* GCDTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A84724C1A1D300C53176 /* GCDTimerTests.swift */; };
 		E437A85024C1ABFA00C53176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A84F24C1ABFA00C53176 /* AppDelegate.swift */; };
 		E437A85224C1ABFA00C53176 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A85124C1ABFA00C53176 /* SceneDelegate.swift */; };
 		E437A85424C1ABFA00C53176 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E437A85324C1ABFA00C53176 /* ContentView.swift */; };
@@ -36,6 +34,7 @@
 		E44571C124C6EC9D00309AFD /* UIColor+rgba.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571C024C6EC9D00309AFD /* UIColor+rgba.swift */; };
 		E44571C524C6F01100309AFD /* DateFormatter+format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571C424C6F01100309AFD /* DateFormatter+format.swift */; };
 		E44571C724C6F0C200309AFD /* Date+format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44571C624C6F0C200309AFD /* Date+format.swift */; };
+		E4576C5524C7E83300497094 /* SecurityAideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4576C5424C7E83300497094 /* SecurityAideTests.swift */; };
 		E47E298024C1964400F0B7D7 /* CICOFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E47E297E24C1964400F0B7D7 /* CICOFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -65,9 +64,7 @@
 		E437A82924C1998A00C53176 /* DebugAide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugAide.swift; sourceTree = "<group>"; };
 		E437A83424C19B4700C53176 /* GCDTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDTimer.swift; sourceTree = "<group>"; };
 		E437A83A24C1A13500C53176 /* CICOFoundationKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICOFoundationKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E437A83C24C1A13500C53176 /* CICOFoundationKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICOFoundationKitTests.swift; sourceTree = "<group>"; };
 		E437A83E24C1A13500C53176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E437A84724C1A1D300C53176 /* GCDTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDTimerTests.swift; sourceTree = "<group>"; };
 		E437A84D24C1ABFA00C53176 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E437A84F24C1ABFA00C53176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E437A85124C1ABFA00C53176 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +85,7 @@
 		E44571C024C6EC9D00309AFD /* UIColor+rgba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+rgba.swift"; sourceTree = "<group>"; };
 		E44571C424C6F01100309AFD /* DateFormatter+format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+format.swift"; sourceTree = "<group>"; };
 		E44571C624C6F0C200309AFD /* Date+format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+format.swift"; sourceTree = "<group>"; };
+		E4576C5424C7E83300497094 /* SecurityAideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityAideTests.swift; sourceTree = "<group>"; };
 		E47E297124C194D900F0B7D7 /* CICOFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CICOFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47E297D24C1964400F0B7D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47E297E24C1964400F0B7D7 /* CICOFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICOFoundationKit.h; sourceTree = "<group>"; };
@@ -218,9 +216,8 @@
 		E437A83B24C1A13500C53176 /* CICOFoundationKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				E437A83C24C1A13500C53176 /* CICOFoundationKitTests.swift */,
-				E437A84724C1A1D300C53176 /* GCDTimerTests.swift */,
 				E437A83E24C1A13500C53176 /* Info.plist */,
+				E4576C5424C7E83300497094 /* SecurityAideTests.swift */,
 			);
 			path = CICOFoundationKitTests;
 			sourceTree = "<group>";
@@ -499,8 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E437A84824C1A1D300C53176 /* GCDTimerTests.swift in Sources */,
-				E437A83D24C1A13500C53176 /* CICOFoundationKitTests.swift in Sources */,
+				E4576C5524C7E83300497094 /* SecurityAideTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
