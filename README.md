@@ -10,8 +10,8 @@ Swift foundation kit library.
 [CartagheBadge]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat
 [CarthageLink]: https://github.com/Carthage/Carthage
 
-[PodBadge]: https://img.shields.io/cocoapods/v/CICIFoundationKit.svg
-[PodLink]: http://cocoadocs.org/docsets/CICIFoundationKit
+[PodBadge]: https://img.shields.io/cocoapods/v/CICOFoundationKit.svg?style=flat
+[PodLink]: http://cocoapods.org/pods/CICOFoundationKit
 
 [MITBadge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
 [MITLink]: https://github.com/cicout/cico_foundation_kit/blob/develop/LICENSE
