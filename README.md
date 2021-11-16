@@ -14,4 +14,4 @@ Swift foundation kit library.
 [PodLink]: http://cocoadocs.org/docsets/CICIFoundationKit
 
 [MITBadge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
-[MITLink]: https://github.com/Carthage/Carthage
+[MITLink]: https://github.com/cicout/cico_foundation_kit/blob/develop/LICENSE
