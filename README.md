@@ -8,7 +8,7 @@ Swift foundation kit library that does not need any third-party sdk.
 
 ### CocoaPod
 
-You can simply add CICOFoundationKit to `Podfile`:  
+You can simply add CICOFoundationKit to your `Podfile`:  
 
 ```
 pod "CICOFoundationKit"
