@@ -26,3 +26,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+// swiftlint:enable multiple_closures_with_trailing_closure
