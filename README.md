@@ -1,6 +1,6 @@
 # CICOFoundationKit
 
-![Swift5 compatible][Swift5Badge] [![Carthage compatible][CartagheBadge]][CarthageLink] [![CocoaPods][PodBadge]][PodLink] [![License MIT][MITBadge]][MITLink]
+![Swift5 compatible][Swift5Badge] [![CocoaPods][PodBadge]][PodLink] [![Carthage compatible][CartagheBadge]][CarthageLink] [![License MIT][MITBadge]][MITLink]
 
 Swift foundation kit library that does not need any third-party sdk.
 
