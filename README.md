@@ -46,6 +46,19 @@ Just add `CICOFoundationKit.framework` to your project.
 - UIApplication
 - UIColor
 
+## Requirements
+
+- iOS 12.0+
+- Swift 5.0+
+
+## License
+
+CICOFoundationKit is released under the MIT license. See [LICENSE](https://github.com/cicout/cico_foundation_kit/blob/master/LICENSE) for details.
+
+## More
+
+Have a question? Please open an [issue](https://github.com/cicout/cico_foundation_kit/issues/new)!
+
 [Swift5Badge]: https://img.shields.io/badge/swift-5-orange.svg?style=flat
 [Swift5Link]: https://developer.apple.com/swift/
 
