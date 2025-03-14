@@ -22,8 +22,6 @@ You can simply add CICOFoundationKit to your `Cartfile`:
 github "cicout/cico_foundation_kit"
 ```
 
-Just add `CICOFoundationKit.framework` to your project.
-
 ## API List
 
 ### Custom Class
