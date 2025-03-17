@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CICOFoundationKit"
-  spec.version      = "0.2.11"
+  spec.version      = "0.2.13"
   spec.summary      = "Swift foundation kit."
 
   # This description is used to generate tags and improve search results.
